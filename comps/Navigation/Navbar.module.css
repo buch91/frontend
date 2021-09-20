@@ -1,0 +1,32 @@
+.header {
+  @apply w-full;
+  @apply shadow-md;
+  height: 55px;
+  font-family: Montserrat, sans-serif;
+}
+
+.headerContent {
+  @apply flex;
+  @apply justify-between;
+  @apply max-w-screen-xl;
+  @apply m-auto;
+  @apply py-2;
+  @apply px-3;
+}
+
+.brand {
+  @apply flex;
+}
+
+.slash {
+  @apply static;
+  @apply px-1;
+  padding-top: 6px;
+}
+
+.anchor {
+  padding-top: 7px;
+}
+.menuContent {
+  @apply pt-2;
+}
