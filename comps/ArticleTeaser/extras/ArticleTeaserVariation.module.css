@@ -1,7 +1,7 @@
 .container {
   @apply w-full;
   @apply m-auto;
-  @apply bg-justified-yellow;
+  @apply bg-justified-pink;
   @apply py-10;
   max-width: 500px;
   height: 390px;
@@ -30,7 +30,7 @@
     0 3%,
     72% 0
   );
-  background-image: url("../../Public/man-one.jpg");
+  background-image: url("../../../Public/sivas.jpg");
 }
 
 .text {
@@ -40,13 +40,14 @@
   @apply flex-col;
   @apply justify-between;
   @apply pt-6;
+  @apply text-light-50;
   font-family: Montserrat;
   height: 260px;
 }
 
 .author {
-  @apply text-justified-red;
-  @apply pb-2;
+  @apply text-justified-purple;
+  @apply pb-4;
   font-weight: 700;
 }
 
@@ -67,7 +68,7 @@
 }
 
 .prompt {
-  @apply text-justified-red;
+  @apply text-justified-purple;
   font-weight: 700;
   font-size: 15px;
 }

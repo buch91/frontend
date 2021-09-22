@@ -38,7 +38,7 @@
 
 .author {
   @apply text-justified-skyblue;
-  @apply pb-2;
+  @apply pb-4;
   font-weight: 700;
 }
 

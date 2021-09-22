@@ -1,0 +1,121 @@
+.container {
+  @apply w-full;
+  @apply m-auto;
+  @apply bg-justified-yellow;
+  @apply py-5;
+  max-width: 500px;
+  height: calc(100vh - 55px); /*Minus header height of 55px*/
+}
+
+.backContents {
+  @apply flex;
+  @apply text-justified-red;
+  @apply pb-3;
+}
+
+.backArrow {
+  @apply px-3;
+}
+
+.backText {
+  @apply font-semibold;
+}
+.imageAndBubbleContents {
+  @apply relative;
+}
+
+.image {
+  @apply bg-cover;
+  @apply bg-center;
+  @apply relative;
+  z-index: 1;
+  height: 310px;
+  width: 270px;
+  clip-path: polygon(
+    83% 0,
+    97% 3%,
+    100% 10%,
+    96% 93%,
+    90% 94%,
+    88% 100%,
+    77% 93%,
+    0 96%,
+    0 3%
+  );
+  background-image: url("../../Public/man-one.jpg");
+}
+.colorBubble {
+
+  clip-path: polygon(100% 11%, 100% 60%, 91% 92%, 85% 93%, 82% 98%, 73% 90%, 6% 84%, 0 75%, 0 0, 94% 8%);
+  @apply absolute;
+  @apply bg-justified-red;
+  height:355px;
+  width:255px;
+  top:140px;
+  right:0;
+  /* top: 130px;
+  right: 0;
+  width: auto !important;
+  height: auto !important; */
+}
+
+.articleContents {
+  @apply w-full;
+  @apply h-full;
+}
+
+.text {
+  @apply px-3;
+  @apply flex;
+  @apply flex-col;
+  @apply justify-between;
+  @apply pt-6;
+  font-family: Montserrat;
+  height: 260px;
+}
+
+.author {
+  @apply text-justified-red;
+  @apply pb-4;
+  font-size:18px;
+  font-weight: 700;
+}
+
+.articleTitle {
+  @apply leading-none;
+  @apply font-light;
+  @apply mb-8;
+  font-size: 38px;
+  font-family: Newsreader;
+}
+
+.fatTitle {
+  @apply font-medium;
+}
+
+.listenToArticle {
+  @apply flex;
+}
+
+.listenPrompt{
+  @apply text-justified-red;
+  font-weight: 500;
+  font-size: 18px;
+  @apply pt-3;
+  @apply pl-3;
+}
+
+.readArticle {
+  @apply flex;
+}
+
+.readPrompt {
+  @apply text-justified-red;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.arrow {
+  @apply pl-2;
+  @apply pr-5;
+}

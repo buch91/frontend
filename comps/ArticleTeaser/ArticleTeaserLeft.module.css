@@ -1,0 +1,78 @@
+.container {
+  @apply w-full;
+  @apply m-auto;
+  @apply bg-justified-yellow;
+  @apply py-10;
+  max-width: 500px;
+  height: 390px;
+}
+
+.teaserContents {
+  @apply w-full;
+  @apply h-full;
+  @apply flex;
+}
+
+.image {
+  @apply flex-1;
+  @apply bg-cover;
+  @apply bg-center;
+  height: 310px;
+  width: 200px;
+  clip-path: polygon(
+    95% 3%,
+    100% 9%,
+    97% 93%,
+    90% 94%,
+    86% 100%,
+    68% 93%,
+    0 96%,
+    0 3%,
+    72% 0
+  );
+  background-image: url("../../Public/man-one.jpg");
+}
+
+.text {
+  @apply flex-1;
+  @apply px-3;
+  @apply flex;
+  @apply flex-col;
+  @apply justify-between;
+  @apply pt-6;
+  font-family: Montserrat;
+  height: 260px;
+}
+
+.author {
+  @apply text-justified-red;
+  @apply pb-4;
+  font-weight: 700;
+}
+
+.articleTitle {
+  @apply leading-none;
+  @apply font-light;
+  @apply mb-8;
+  font-size: 27px;
+  font-family: Newsreader;
+}
+
+.fatTitle {
+  @apply font-medium;
+}
+
+.readMore {
+  @apply flex;
+}
+
+.prompt {
+  @apply text-justified-red;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.arrow {
+  @apply pl-3;
+  padding-top: 2px;
+}

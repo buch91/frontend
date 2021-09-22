@@ -1,8 +1,10 @@
-import Head from 'next/head'
-import Image from 'next/image'
+// import Head from 'next/head'
+// import Image from 'next/image'
 import Navbar from '../comps/Navigation/Navbar'
-import ArticleTeaser from '../comps/ArticleTeaser/ArticleTeaser'
-import ArticleTeaserImageRight from '../comps/ArticleTeaser/ArticleTeaserImageRight'
+import ArticleTeaserLeft from '../comps/ArticleTeaser/ArticleTeaserLeft'
+import ArticleTeaserRight from '../comps/ArticleTeaser/ArticleTeaserRight'
+import ArticleTeaserVariation from '../comps/ArticleTeaser/extras/ArticleTeaserVariation'
+import Article from '../comps/Article/Article'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -11,8 +13,12 @@ export default function Home() {
     // <div><h1>Homepage</h1></div>
     <div className={styles.container}>
       <Navbar />
-      <ArticleTeaser />
-      <ArticleTeaserImageRight />
+      <Article />
+      {/* <ArticleTeaserLeft />
+      <ArticleTeaserRight />
+      <ArticleTeaserVariation /> */}
+
+      
       <main className={styles.main}>
       
         {/* <h1 className={styles.title}>
