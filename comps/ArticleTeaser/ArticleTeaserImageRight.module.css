@@ -1,0 +1,72 @@
+.container {
+  @apply w-full;
+  @apply m-auto;
+  @apply bg-justified-forestgreen;
+  @apply py-10;
+  max-width: 500px;
+  height: 390px;
+}
+
+.teaserContents {
+  @apply w-full;
+  @apply h-full;
+  @apply flex;
+}
+
+.image {
+  @apply flex-1;
+  @apply bg-cover;
+  @apply bg-center;
+  @apply mt-3;
+  height: 300px;
+  width: 200px;
+  clip-path: polygon(2% 8%, 18% 0, 100% 0, 100% 96%, 20% 95%, 15% 100%, 13% 100%, 11% 91%, 0 90%);
+  background-image: url("../../Public/woman-one.jpg");
+}
+
+.text {
+  @apply flex-1;
+  @apply pr-1;
+  @apply pl-4;
+  @apply flex;
+  @apply flex-col;
+  @apply justify-between;
+  @apply pt-6;
+  font-family: Montserrat;
+  height: 260px;
+}
+
+.author {
+  @apply text-justified-skyblue;
+  @apply pb-2;
+  font-weight: 700;
+}
+
+.articleTitle {
+  @apply leading-none;
+  @apply font-light;
+  @apply mb-8;
+  @apply text-light-50;
+  font-size: 27px;
+  font-family: Newsreader;
+}
+
+.fatTitle {
+  @apply font-medium;
+  @apply text-light-50;
+}
+
+.readMore {
+  @apply flex;
+}
+
+.prompt {
+  @apply text-justified-skyblue;
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.arrow {
+  @apply pl-3;
+  padding-top: 2px;
+}

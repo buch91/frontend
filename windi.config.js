@@ -21,6 +21,12 @@ export default defineConfig({
         justified: {
           yellow: "#F9D547",
           red: "#E44736",
+          forestgreen: "#387F4C",
+          skyblue: "#7ED8F7",
+          pink: "#EA356E",
+          purple: "#711B73",
+          blue: "#1A56BF",
+          brightgreen: "#91EC70",
         },
       },
       // fontFamily: {

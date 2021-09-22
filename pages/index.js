@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Navbar from '../comps/Navigation/Navbar'
 import ArticleTeaser from '../comps/ArticleTeaser/ArticleTeaser'
+import ArticleTeaserImageRight from '../comps/ArticleTeaser/ArticleTeaserImageRight'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
     <div className={styles.container}>
       <Navbar />
       <ArticleTeaser />
+      <ArticleTeaserImageRight />
       <main className={styles.main}>
       
         {/* <h1 className={styles.title}>
