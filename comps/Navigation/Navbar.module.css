@@ -32,7 +32,7 @@
 }
 
 .anchor {
-  padding-top: 7px;
+  @apply pt-2;
 }
 .menuContent {
   @apply pt-2;

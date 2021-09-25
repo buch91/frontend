@@ -12,7 +12,7 @@ const ArticleTeaserVariation = () => {
             <div className={s.author}>Amin Safari</div>
             <div className={s.articleTitle}>
               <span className={s.fatTitle}>Nye sange fra danske artister</span>
-              du skal høre, lige nu
+              {" "}du skal høre, lige nu
             </div>
           </div>
 
