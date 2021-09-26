@@ -12,7 +12,7 @@ export default function Home() {
 
     // <div><h1>Homepage</h1></div>
     <div className={styles.container}>
-      <Navbar />
+      
       <Article />
       {/* <ArticleTeaserLeft />
       <ArticleTeaserRight />
