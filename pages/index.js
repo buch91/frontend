@@ -6,6 +6,7 @@ import ArticleTeaserRight from '../comps/ArticleTeaser/ArticleTeaserRight'
 import ArticleTeaserVariation from '../comps/ArticleTeaser/extras/ArticleTeaserVariation'
 import Article from '../comps/Article/Article'
 import styles from '../styles/Home.module.css'
+import Flex from '../comps/Flex/Flex'
 
 export default function Home() {
   return (
@@ -13,7 +14,9 @@ export default function Home() {
     // <div><h1>Homepage</h1></div>
     <div className={styles.container}>
       
-      <Article />
+      <Flex />
+
+      {/* <Article /> */}
       {/* <ArticleTeaserLeft />
       <ArticleTeaserRight />
       <ArticleTeaserVariation /> */}
